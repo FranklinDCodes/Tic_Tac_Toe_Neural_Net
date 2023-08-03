@@ -1,6 +1,9 @@
 # Tic_Tac_Toe_Neural_Net
 A PyTorch neural network trained to play tic-tac-toe, and all the files that helped to create it.
 
+
+FILES:
+
 PLAY_ME.py: 
   Run to play the neural network at tic-tac-toe! Type in your moves based on the coordinates of the game board (Column + Row).
 
@@ -20,4 +23,7 @@ game.py:
   Contains the Game() object used in all of the above code to keep track of turns, decide winners, etc.
 
 trainer.py: 
-  The file that trained T3NN.pkl
+  The file that trained T3NN.pkl.
+
+sql_tools.py: 
+  Contains the class db() that is used in above code to manipulate sqlite databases.
